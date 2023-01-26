@@ -86,16 +86,13 @@ export default {
   },
 
   methods: {
-    async requestPackages() {
-      await this.$store.dispatch('packages/get_packages', 3)
-    },
     formatDate(date) {
       console.log('date', date)
       return format(new Date(date), 'MM-dd-yyyy')
     },
   },
   mounted() {
-    this.requestPackages()
+    this.$store.dispatch('packages/get_packages', 3)
   },
 }
 </script>
