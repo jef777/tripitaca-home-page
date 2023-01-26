@@ -12,7 +12,9 @@
     "preview+server": "concurrently --kill-others \"npm run preview\" \"npm run start-dummy-server\""
   },
   "dependencies": {
-    "vue": "^3.2.45"
+    "axios": "^1.2.4",
+    "vue": "^3.2.45",
+    "vuex": "^4.1.0"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
