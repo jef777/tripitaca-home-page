@@ -17,10 +17,10 @@
           </div>
         </div>
         <div class="col-md-8">
-          <div v-if="apiLoadingState?.loading">
+          <div v-if="!apiLoadingState?.loading">
             <content-loader
-              primaryColor="#F9F8FE"
-              secondaryColor="#f1efff"
+              primaryColor="#ffecd3"
+              secondaryColor="#FDF7EF"
             ></content-loader>
           </div>
           <div
