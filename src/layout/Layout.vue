@@ -1,6 +1,5 @@
 <template>
   <Header />
-  <div class="app-body"></div>
   <slot />
   <Footer />
 </template>

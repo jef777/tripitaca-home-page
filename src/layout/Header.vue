@@ -36,4 +36,7 @@ li.nav-item a.nav-link {
   color: black;
   font-weight: bold;
 }
+.navbar-toggler-icon {
+  filter: brightness(1) invert(1);
+}
 </style>
