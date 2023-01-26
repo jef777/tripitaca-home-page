@@ -98,7 +98,7 @@ export default {
     },
   },
   mounted() {
-    this.$store.dispatch('destinations/get_destinations', 3)
+    this.$store.dispatch('destinations/get_destinations')
   },
 }
 </script>

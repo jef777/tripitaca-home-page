@@ -87,7 +87,6 @@ export default {
 
   methods: {
     formatDate(date) {
-      console.log('date', date)
       return format(new Date(date), 'MM-dd-yyyy')
     },
   },

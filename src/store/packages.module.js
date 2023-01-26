@@ -20,7 +20,6 @@ export const packages = {
       state.travel_packages = data
     },
     UPDATE_LOADING_STATE(state, apiState) {
-      console.log('apiState', apiState)
       state.loading_state = apiState
     },
   },
