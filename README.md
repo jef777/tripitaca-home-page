@@ -1,7 +1,23 @@
-# Vue 3 + Vite
+# Tripitaca home page
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### Installation Guide.
 
-## Recommended IDE Setup
+```sh
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+# Clone the repository
+ git clone  https://github.com/jef777/tripitaca-home-page.git
+
+
+# Install client dependencies
+ cd tripitaca-home-page
+ run npm i
+
+# Start dev + Dammy Json-server as API mocker
+ npm run dev+server
+
+# Build and run production ready + Dammy Json-server as API mocker
+ npm run build
+ npm run preview+server
+
+
+```
