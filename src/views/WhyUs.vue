@@ -8,7 +8,7 @@
               Why Get <span class="thin">Trippy?</span>
               <br />
             </h2>
-            <h2 class="">
+            <h2 class="mb-5">
               <span class="thin"
                 >Our Unique <span class="normal">Distinction</span> from Others
               </span>
@@ -104,7 +104,7 @@ export default {
 }
 
 .desc {
-  font-weight: 500 !important;
+  font-weight: 300 !important;
   color: #545454;
 }
 

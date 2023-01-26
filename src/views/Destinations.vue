@@ -34,7 +34,7 @@
             :effect="'cards'"
             :grabCursor="true"
             :autoplay="{
-              delay: 250000,
+              delay: 2500,
               disableOnInteraction: true,
             }"
             :modules="modules"
