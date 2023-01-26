@@ -4,6 +4,7 @@
       <WhyUs />
       <Packages />
       <Destinations />
+      <ListWithUs />
     </layout>
   </div>
 </template>
@@ -13,6 +14,7 @@ import Layout from '@/layout/Layout.vue'
 import WhyUs from './views/WhyUs.vue'
 import Packages from './views/Packages.vue'
 import Destinations from './views/Destinations.vue'
+import ListWithUs from './views/ListWithUs.vue'
 export default {
   name: 'App',
   components: {
@@ -20,6 +22,7 @@ export default {
     WhyUs,
     Packages,
     Destinations,
+    ListWithUs,
   },
 }
 </script>
