@@ -17,8 +17,3 @@ export default {
   },
 }
 </script>
-<style scoped>
-.app-body {
-  min-height: 9vh;
-}
-</style>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <layout>
+      <Hero />
       <WhyUs />
       <Packages />
       <Destinations />
@@ -17,6 +18,7 @@ import Packages from './views/Packages.vue'
 import Destinations from './views/Destinations.vue'
 import ListWithUs from './views/ListWithUs.vue'
 import VideoDemo from './views/VideoDemo.vue'
+import Hero from './views/Hero.vue'
 export default {
   name: 'App',
   components: {
@@ -26,6 +28,7 @@ export default {
     Destinations,
     ListWithUs,
     VideoDemo,
+    Hero,
   },
 }
 </script>
