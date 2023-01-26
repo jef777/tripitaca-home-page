@@ -5,6 +5,7 @@
       <Packages />
       <Destinations />
       <ListWithUs />
+      <VideoDemo />
     </layout>
   </div>
 </template>
@@ -15,6 +16,7 @@ import WhyUs from './views/WhyUs.vue'
 import Packages from './views/Packages.vue'
 import Destinations from './views/Destinations.vue'
 import ListWithUs from './views/ListWithUs.vue'
+import VideoDemo from './views/VideoDemo.vue'
 export default {
   name: 'App',
   components: {
@@ -23,6 +25,7 @@ export default {
     Packages,
     Destinations,
     ListWithUs,
+    VideoDemo,
   },
 }
 </script>
