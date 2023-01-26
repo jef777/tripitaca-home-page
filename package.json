@@ -4,15 +4,20 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite ",
     "build": "vite build",
-    "preview": "vite preview"
+    "start-dummy-server": "json-server --watch trippy-data/db.json --port 3005",
+    "preview": "vite preview",
+    "dev+server": "concurrently --kill-others \"npm run dev\" \"npm run start-dummy-server\"",
+    "preview+server": "concurrently --kill-others \"npm run preview\" \"npm run start-dummy-server\""
   },
   "dependencies": {
     "vue": "^3.2.45"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^4.0.0",
+    "concurrently": "^7.6.0",
+    "json-server": "^0.17.1",
     "prettier": "2.8.3",
     "vite": "^4.0.0"
   }
