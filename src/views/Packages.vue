@@ -70,23 +70,11 @@
 </template>
 <script>
 import { format } from 'date-fns'
-import {
-  ContentLoader,
-  FacebookLoader,
-  CodeLoader,
-  BulletListLoader,
-  InstagramLoader,
-  ListLoader,
-} from 'vue-content-loader'
+import { ContentLoader } from 'vue-content-loader'
 export default {
   name: 'Packages',
   components: {
     ContentLoader,
-    FacebookLoader,
-    CodeLoader,
-    BulletListLoader,
-    InstagramLoader,
-    ListLoader,
   },
   computed: {
     getPackages: function () {
