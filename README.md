@@ -10,7 +10,7 @@
 
 # Install client dependencies
  cd tripitaca-home-page
- run npm i
+ npm install
 
 # Start dev + Dammy Json-server as API mocker
  npm run dev+server
